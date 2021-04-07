@@ -36,11 +36,12 @@ geom_line(df1)
 ```
 
 ## Defining axis scales
+1. limits is the scale limit to be plotted/shown on graph
+2. breaks is the numbers to be displayed in the axis
+3. scales::comma displays 1000 as 1,000 and 10000 as 10,000, scales::percent displays 95 as 95%
+4. expand is the padding beyoond the limit, for e.g. right padding is 10000 + (10000 - 1)*1 + 2,
+   left padding is 0 + (0-1)*1 -2
 ```{r}
-# limits is the scale limit to be plotted/shown on graph
-# breaks is the numbers to be displayed in the axis
-# scales::comma displays 1000 as 1,000 and 10000 as 10,000, scales::percent displays 95 as 95%
-# expand is the padding beyoond the limit, for e.g. below padding is 10000 + (10000 - 1)*1 + 2
 scale_x_continuous(limits = c(0,10000), breaks = c(0, 100, 1000, 10000), labels = scales::comma, expand = (1, 2)) +
 scale_y_continuous(limits = c(0, 100), labels = scales::percent)
 ```
