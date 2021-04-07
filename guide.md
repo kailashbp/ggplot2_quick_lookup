@@ -35,7 +35,7 @@ geom_vline(xintercept = 0.5, linetype = "dotted")
 geom_line(df1)
 ```
 
-## Defining axis scales
+### Defining axis scales
 1. limits is the scale limit to be plotted/shown on graph
 2. breaks is the numbers to be displayed in the axis
 3. scales::comma displays 1000 as 1,000 and 10000 as 10,000, scales::percent displays 95 as 95%
@@ -44,4 +44,9 @@ geom_line(df1)
 ```{r}
 scale_x_continuous(limits = c(0,10000), breaks = c(0, 100, 1000, 10000), labels = scales::comma, expand = (1, 2)) +
 scale_y_continuous(limits = c(0, 100), labels = scales::percent)
+```
+
+## Theme
+```{r}
+theme_set(theme_minimal(), legnend.position = "bottom", legend.title = "Tutorial")
 ```
