@@ -50,3 +50,14 @@ scale_y_continuous(limits = c(0, 100), labels = scales::percent)
 ```{r}
 theme_set(theme_minimal(), legnend.position = "bottom", legend.title = "Tutorial")
 ```
+## Multi plots
+Divide the data into multiple datasets based on the factor of any given column
+```{r}
+facet_wrap(~ DxCondition, ncol = 1)
+```
+
+Combining multiple different plots
+```{r}
+library(ggpubr)
+ggarrange(plot1 + plot2 + plot3 + plot 4, ncol = 2, nrow = 2)
+```
