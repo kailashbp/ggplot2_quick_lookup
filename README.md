@@ -59,5 +59,5 @@ facet_wrap(~ DxCondition, ncol = 1)
 Combining multiple different plots
 ```r
 library(ggpubr)
-ggarrange(plot1 + plot2 + plot3 + plot 4, ncol = 2, nrow = 2)
+ggarrange(plot1 + plot2 + plot3 + plot4, ncol = 2, nrow = 2)
 ```
