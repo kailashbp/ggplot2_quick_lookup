@@ -1,5 +1,18 @@
 # ggplot2 lookup guide
 
+*Template from ggplot2 cheatsheet*
+
+```r
+ggplot(data = <DATA>) +
+     <GEOM_FUNCTION>(mapping = aes( <MAPPINGS>),
+                     stat = <STAT>,
+                     position = <POSITION>) +
+     <COORDINATE_FUNCTION> +
+     <FACET_FUNCTION> +
+     <SCALE_FUNCTION> +
+     <THEME_FUNCTION>
+```
+
 ## Plots
 
 ### Scatter plot
