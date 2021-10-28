@@ -3,14 +3,14 @@
 ## Packages
 
 To check the list of all possible ggplot libraries look [here]{https://exts.ggplot2.tidyverse.org/gallery/} 
-<li>
-     <ol>ggsci - To get Scientific Journal specific colour schemes</ol>
-     <ol>ggfortify - To make PCA plots</ol>
-     <ol>ggpubr - To attach stats to plots, and also to arrange multiple plots together</ol>
-     <ol>patchwork - Quickly combine plots together</ol>
-     <ol>corrplot - To make correlation plots</ol>
-     <ol>GGally - To make ggpairs plots</ol>
-</li>
+<ol>
+     <li>ggsci - To get Scientific Journal specific colour schemes</li>
+     <li>ggfortify - To make PCA plots</li>
+     <li>ggpubr - To attach stats to plots, and also to arrange multiple plots together</li>
+     <li>patchwork - Quickly combine plots together</li>
+     <li>corrplot - To make correlation plots</li>
+     <li>GGally - To make ggpairs plots</li>
+</ol>
             
 *Template from ggplot2 cheatsheet*
 
