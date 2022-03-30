@@ -37,6 +37,20 @@ geom_point(data = df1, aes(x = a, y = b))
 geom_hist(data = df1, aes(x = a))
 ```
 
+### Boxplot
+
+### Locus Zoom plot
+
+### plotGardener plot
+
+### Sankey diagram
+
+### Manhattan plot
+
+### Nightingale plot
+
+### ggpairs plot
+
 ## Plot labels and addups
 
 ### Title, xlabel, ylabel
@@ -86,3 +100,7 @@ Combining multiple different plots
 library(patchwork)
 plot1 + plot2 + plot3 + plot4
 ```
+
+## Adding p-values to graphs
+
+https://stackoverflow.com/questions/45476950/r-ggplot2-boxplots-ggpubr-stat-compare-means-not-working-properly
