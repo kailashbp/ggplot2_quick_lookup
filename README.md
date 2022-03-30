@@ -39,6 +39,12 @@ geom_hist(data = df1, aes(x = a))
 
 ### Boxplot
 
+### Diverging bars
+
+### Heatmap
+
+### Dumbbell plot
+
 ### Locus Zoom plot
 
 ### plotGardener plot
