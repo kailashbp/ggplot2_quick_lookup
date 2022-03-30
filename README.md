@@ -6,10 +6,14 @@ To check the list of all possible ggplot libraries look [here]{https://exts.ggpl
 <ol>
      <li>ggsci - To get Scientific Journal specific colour schemes</li>
      <li>ggfortify - To make PCA plots</li>
-     <li>ggpubr - To attach stats to plots, and also to arrange multiple plots together</li>
+     <li>ggpubr, ggstatsplot - To attach stats to plots, and also to arrange multiple plots together</li>
      <li>patchwork - Quickly combine plots together</li>
-     <li>corrplot - To make correlation plots</li>
+     <li>corrplot, pheatmap - To make correlation plots, hierarchical clustering heatmaps</li>
      <li>GGally - To make ggpairs plots</li>
+     <li>ggtranscript</li>
+     <li>ggrepel - to repel annoying plot labels</li>
+     <li>ggalluvial - To make sankey diagrams</li>
+     <li>ggupset, ComplexUpset - To make upset plots</li>
 </ol>
             
 *Template from ggplot2 cheatsheet*
@@ -44,6 +48,8 @@ geom_hist(data = df1, aes(x = a))
 ### Heatmap
 
 ### Dumbbell plot
+
+### Upset plot
 
 ### Locus Zoom plot
 
